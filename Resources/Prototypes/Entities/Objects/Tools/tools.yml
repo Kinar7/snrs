@@ -342,6 +342,9 @@
     - HVCable
     - CableTerminal
     - Deconstruct
+    - TripleGlassAirlockBasic #sunrise start
+    - TripleGlassAirlock
+    - DoubleGlassAirlock  #sunrise end
   - type: LimitedCharges
     maxCharges: 30
   - type: Sprite
