@@ -344,7 +344,8 @@
     - Deconstruct
     - TripleGlassAirlockBasic #sunrise start
     - TripleGlassAirlock
-    - DoubleGlassAirlock  #sunrise end
+    - DoubleGlassAirlock
+    - DoubleGlassAirlockBasic #sunrise end
   - type: LimitedCharges
     maxCharges: 30
   - type: Sprite

@@ -218,6 +218,18 @@
   collisionMask: FullTileMask
   rotation: User
   fx: EffectRCDConstruct4
+
+- type: rcd
+  id: DoubleGlassAirlockBasic
+  category: Airlocks
+  sprite: /Textures/Interface/Radial/RCD/double_glass_airlock_basic.png
+  mode: ConstructObject
+  prototype: DoubleGlassAirlockBasic
+  cost: 8
+  delay: 4
+  collisionMask: FullTileMask
+  rotation: User
+  fx: EffectRCDConstruct4
 # Sunrise End
 - type: rcd
   id: Firelock
