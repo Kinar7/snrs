@@ -222,8 +222,7 @@
   maxLimit: 1
   loadouts:
   - GlockBox
-  - HIBrowningBox
-  - ACP14Box 
+  - ACP14Box
   - WeaponEnergyGunPistolSecurity
   - WeaponDisabler
   - WeaponTaser

@@ -1,4 +1,13 @@
-﻿- type: loadout
+﻿- type: loadoutEffectGroup
+  id: MasterSecurity
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobSecurityOfficer
+      time: 72000 #20 hrs
+
+- type: loadout
   id: SecurityBodycam
   startingGear: SecurityBodycam
 
@@ -109,18 +118,11 @@
     - GlockBox
 
 - type: loadout
-  id: HIBrowningBox
-  startingGear: HIBrowningBox
-
-- type: startingGear
-  id: HIBrowningBox
-  storage:
-    back:
-    - HIBrowningBox
-
-- type: loadout
   id: ACP14Box
   startingGear: ACP14Box
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MasterSecurity
 
 - type: startingGear
   id: ACP14Box
