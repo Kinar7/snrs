@@ -32,6 +32,7 @@ construction-graph-tag-sun-glasses = sun glasses
 construction-graph-tag-security-helmet = security helmet
 construction-graph-tag-strobe-shield = strobe riot shield
 construction-graph-tag-flash = security flash
+construction-graph-tag-UpgradeFlareGun = upgrade kit (security flare gun)
 
 # materials
 construction-graph-tag-manipulator = modular machine part
@@ -147,3 +148,6 @@ construction-graph-tag-fire-helmet = fire helmet
 
 # salvage
 construction-graph-tag-spationaut-hardsuit = spationaut hardsuit
+
+# clothing
+construction-graph-tag-backpack = backpack

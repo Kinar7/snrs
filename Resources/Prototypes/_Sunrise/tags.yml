@@ -38,6 +38,9 @@
   id: AnomalyCore
 
 - type: Tag
+  id: LoneOpsUplink
+
+- type: Tag
   id: Flash
 
 # Catridges:
@@ -381,3 +384,6 @@
 
 - type: Tag
   id: DockCentComm
+
+- type: Tag
+  id: DockMining
