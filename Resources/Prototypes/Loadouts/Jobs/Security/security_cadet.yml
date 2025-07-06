@@ -8,3 +8,80 @@
   id: RedJumpskirt
   equipment:
     jumpsuit: ClothingUniformJumpskirtColorRed
+
+# Sumrise_Start
+- type: loadoutEffectGroup
+  id: MasterCadet5h
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: Security
+      time: 18000 #5 hrs
+
+- type: loadoutEffectGroup
+  id: MasterCadet10h
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: Security
+      time: 36000 #10 hrs
+
+- type: loadoutEffectGroup
+  id: MasterCadet20h
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: Security
+      time: 72000 #20 hrs
+
+- type: loadout
+  id: CadetWeaponACP14Box
+  startingGear: ACP14Box
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MasterCadet20h
+
+- type: startingGear
+  id: CadetWeaponACP14Box
+  storage:
+    back:
+    - ACP14Box
+
+- type: loadout
+  id: CadetWeaponGlockBox
+  startingGear: GlockBox
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MasterCadet10h
+
+- type: startingGear
+  id: CadetWeaponGlockBox
+  storage:
+    back:
+    - GlockBox
+
+- type: loadout
+  id: CadetWeaponEnergyGunPistolSecurity
+  startingGear: WeaponEnergyGunPistolSecurity
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: MasterCadet5h
+
+- type: startingGear
+  id: CadetWeaponEnergyGunPistolSecurity
+  storage:
+    back:
+    - WeaponEnergyGunPistolSecurity
+
+- type: loadout
+  id: CadetWeaponDisabler
+  startingGear: WeaponDisabler
+
+- type: startingGear
+  id: CadetWeaponDisabler
+  storage:
+    back:
+    - WeaponDisabler
