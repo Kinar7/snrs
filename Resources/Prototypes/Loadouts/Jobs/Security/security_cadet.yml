@@ -44,24 +44,12 @@
   - !type:GroupLoadoutEffect
     proto: MasterCadet20h
 
-- type: startingGear
-  id: CadetWeaponACP14Box
-  storage:
-    back:
-    - ACP14Box
-
 - type: loadout
   id: CadetWeaponGlockBox
   startingGear: GlockBox
   effects:
   - !type:GroupLoadoutEffect
     proto: MasterCadet10h
-
-- type: startingGear
-  id: CadetWeaponGlockBox
-  storage:
-    back:
-    - GlockBox
 
 - type: loadout
   id: CadetWeaponEnergyGunPistolSecurity
@@ -70,19 +58,8 @@
   - !type:GroupLoadoutEffect
     proto: MasterCadet5h
 
-- type: startingGear
-  id: CadetWeaponEnergyGunPistolSecurity
-  storage:
-    back:
-    - WeaponEnergyGunPistolSecurity
-
 - type: loadout
   id: CadetWeaponDisabler
   startingGear: WeaponDisabler
 
-- type: startingGear
-  id: CadetWeaponDisabler
-  storage:
-    back:
-    - WeaponDisabler
 # sunrise end
