@@ -46,6 +46,8 @@
     - id: NetworkConfigurator
     - id: Binoculars
     - id: HandheldCriminalRecordsMonitor  # Sunrise-CriminalRecords
+    - id: ClothingHeadHatCapWardenAlt #Sunrise_Change
+    - id: ClothingOuterCoatWardenAlt #Sunrise_Change
 
 - type: entityTable
   id: FillLockerWardenHarduit

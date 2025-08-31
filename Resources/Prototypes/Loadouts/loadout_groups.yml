@@ -1142,6 +1142,7 @@
   loadouts:
   - WardenHead
   - WardenBeret
+  - ClothingHeadHatCapWardenAlt 
 
 - type: loadoutGroup
   id: WardenJumpsuit
@@ -1156,6 +1157,7 @@
   loadouts:
   - WardenCoat
   - WardenArmoredWinterCoat
+  - ClothingOuterCoatWardenAlt 
 
 - type: loadoutGroup
   id: SecurityHead
