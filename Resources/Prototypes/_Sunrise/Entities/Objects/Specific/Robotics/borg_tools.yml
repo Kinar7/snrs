@@ -914,8 +914,8 @@
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
   - type: HitscanBatteryAmmoProvider
     proto: RedHeavyLaser #no levelcode system, because I give em disablersmg
-    fireCost:100
-    - type: Battery
+    fireCost: 100
+  - type: Battery
     maxCharge: 2000
     startingCharge: 2000
   - type: BatterySelfRecharger
