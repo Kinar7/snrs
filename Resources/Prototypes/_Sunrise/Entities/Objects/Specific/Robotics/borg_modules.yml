@@ -130,7 +130,7 @@
   - type: ItemBorgModule
     hands:
     - item: StunbatonBorg
-    - item: FlashBorg+
+    - item: FlashBorg
     - item: WeaponDisablerSMGBorg
 
 - type: entity

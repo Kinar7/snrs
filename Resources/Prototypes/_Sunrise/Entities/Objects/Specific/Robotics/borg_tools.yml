@@ -906,9 +906,6 @@
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
-    - state: mag-unshaded-4
-      map: ["enum.GunVisualLayers.MagUnshaded"]
-      shader: unshaded
   - type: Gun
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
@@ -936,8 +933,11 @@
   components:
   - type: Sprite
     sprite: _Sunrise/Objects/Weapons/Guns/Pistols/glock22/big.rsi
-  - type: Item
-    sprite: _Sunrise/Objects/Weapons/Guns/Pistols/glock22/tiny.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
   - type: Gun
     minAngle: 2
     maxAngle: 16
@@ -949,9 +949,6 @@
     - FullAuto
     soundGunshot:
       collection: glock22
-  - type: ContainerContainer
-    containers:
-      ballistic-ammo: !type:Container
   - type: HitscanBatteryAmmoProvider
     proto: BulletPistolTraceSP
     fireCost: 100
@@ -961,6 +958,7 @@
 #      fireCost: 100
     - proto: BulletPistolTraceSP
       fireCost: 100
+      name: la-locale
     - proto: BulletPistolTraceHP
       fireCost: 100
     - proto: BulletPistolTraceFMJ
@@ -970,7 +968,7 @@
     startingCharge: 1600
   - type: BatterySelfRecharger
     autoRecharge: true
-    autoRechargeRate: 50 # 32 seconds full recharge
+    autoRechargeRate: 50 # 32 seconds full recharge.
   - type: AmmoCounter
 
 - type: entity
@@ -998,9 +996,6 @@
       - SemiAuto
     soundGunshot:
       collection: galil
-  - type: ContainerContainer
-    containers:
-      ballistic-ammo: !type:Container
   - type: HitscanBatteryAmmoProvider
     proto: BulletRifleTraceSP
     fireCost: 100
@@ -1017,5 +1012,5 @@
     startingCharge: 2600
   - type: BatterySelfRecharger
     autoRecharge: true
-    autoRechargeRate: 50 # 52 seconds full recharge. Mb need to double it.
+    autoRechargeRate: 50 # 52 seconds full recharge. Mb need to double it, or do the timer thing
   - type: AmmoCounter
