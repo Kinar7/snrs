@@ -958,7 +958,6 @@
 #      fireCost: 100
     - proto: BulletPistolTraceSP
       fireCost: 100
-      name: la-locale
     - proto: BulletPistolTraceHP
       fireCost: 100
     - proto: BulletPistolTraceFMJ
