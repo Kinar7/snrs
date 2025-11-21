@@ -36,6 +36,7 @@
 - type: latheRecipePack
   id: BorgModules
   recipes:
+  - BorgModuleAdvancedCombat # Sunrise_edit
   - BorgModuleAdvancedCleaning
   - BorgModuleAdvancedTool
   - BorgModuleAdvancedClowning
