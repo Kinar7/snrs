@@ -913,11 +913,11 @@
     proto: RedHeavyLaser #no levelcode system, because I give em disablersmg
     fireCost: 100
   - type: Battery
-    maxCharge: 2000
-    startingCharge: 2000
+    maxCharge: 1000
+    startingCharge: 1000
   - type: BatterySelfRecharger
     autoRecharge: true
-    autoRechargeRate: 20 # 100 seconds full recharge. Mb needs to be decreased to 60 sec.
+    autoRechargeRate: 25 # 40 seconds full recharge.
   - type: MagazineVisuals
     magState: laser_cyborg
     steps: 5
@@ -968,6 +968,8 @@
   - type: BatterySelfRecharger
     autoRecharge: true
     autoRechargeRate: 50 # 32 seconds full recharge.
+    autoRechargePause: true
+    autoRechargePauseTime: 5
   - type: AmmoCounter
 
 - type: entity
@@ -1011,5 +1013,7 @@
     startingCharge: 2600
   - type: BatterySelfRecharger
     autoRecharge: true
-    autoRechargeRate: 50 # 52 seconds full recharge. Mb need to double it, or do the timer thing
+    autoRechargeRate: 65 # 40 seconds full recharge.
+    autoRechargePause: true
+    autoRechargePauseTime: 5
   - type: AmmoCounter
