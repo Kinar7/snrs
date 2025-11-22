@@ -82,6 +82,8 @@
         - yellow
         - red
         - gamma
+        - delta
+        - epsilon
   - type: BatterySelfRecharger
     autoRecharge: true
     autoRechargeRate: 20
@@ -950,18 +952,48 @@
     soundGunshot:
       collection: glock22
   - type: HitscanBatteryAmmoProvider
-    proto: BulletPistolTraceSP
+    proto: BulletPistolTraceRubber
     fireCost: 100
-  - type: BatteryWeaponFireModes # No AP, or Uranium rounds because can be created roundstart. I think need add levelcode system.
+  - type: BatteryWeaponFireModes # No AP, or Uranium rounds because can be created roundstart.
     fireModes:
-#    - proto: BulletPistolTraceRubber
-#      fireCost: 100
+    - proto: BulletPistolTraceRubber
+      fireCost: 100
     - proto: BulletPistolTraceSP
       fireCost: 100
+      conditions:
+      - !type:AlertLevelCondition
+        alertLevels:
+        - blue
+        - violet
+        - yellow
+        - red
+        - gamma
+        - delta
+        - epsilon
     - proto: BulletPistolTraceHP
       fireCost: 100
+      conditions:
+      - !type:AlertLevelCondition
+        alertLevels:
+        - blue
+        - violet
+        - yellow
+        - red
+        - gamma
+        - delta
+        - epsilon
     - proto: BulletPistolTraceFMJ
       fireCost: 100
+      conditions:
+      - !type:AlertLevelCondition
+        alertLevels:
+        - blue
+        - violet
+        - yellow
+        - red
+        - gamma
+        - delta
+        - epsilon
   - type: Battery
     maxCharge: 1600
     startingCharge: 1600

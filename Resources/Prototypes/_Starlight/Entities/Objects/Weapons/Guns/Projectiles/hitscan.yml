@@ -1248,6 +1248,7 @@
 
 - type: hitscan
   id: BulletPistolTraceRubber
+  name: ".35 Rubber"
   parent: BulletTrace
   damage:
     types:
