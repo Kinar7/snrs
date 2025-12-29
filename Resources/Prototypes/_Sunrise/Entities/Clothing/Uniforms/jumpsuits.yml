@@ -387,3 +387,113 @@
     - NudeTop # INTERACTIONS
     - WhitelistChameleon
   # SUNRISE EDIT
+
+- type: entity
+  parent: ClothingUniformJumpsuitSec
+  id: ClothingUniformJumpsuitHoSBlue
+  name: head of security's Jumpsuit
+  description: It's bright red and rather crisp, much like security's victims tend to be.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Secblu/Uniforms/Jumpsuit/hos.rsi
+  - type: Clothing
+    sprite: _Sunrise/Secblu/Uniforms/Jumpsuit/hos.rsi
+
+- type: entity
+  parent: ClothingUniformJumpsuitHoSAlt
+  id: ClothingUniformJumpsuitHoSAltBlue
+  name: head of security's turtleneck
+  description: It's a turtleneck worn by those strong and disciplined enough to achieve the position of Head of Security.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Secblu/Uniforms/Jumpsuit/hos_alt.rsi
+  - type: Clothing
+    sprite: _Sunrise/Secblu/Uniforms/Jumpsuit/hos_alt.rsi
+
+- type: entity
+  parent: ClothingUniformJumpsuitHoSParadeMale
+  id: ClothingUniformJumpsuitHoSParadeMaleBlue
+  name: head of security's parade uniform
+  description: A head of security's luxury-wear, for special occasions.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Secblu/Uniforms/Jumpsuit/hos_parade.rsi
+  - type: Clothing
+    sprite: _Sunrise/Secblu/Uniforms/Jumpsuit/hos_parade.rsi
+
+- type: entity
+  parent: ClothingUniformJumpsuitHoSBlue
+  id: ClothingUniformJumpsuitHoSBlueBlue
+  name: head of security's blue jumpsuit
+  description: A blue jumpsuit of Head of Security.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Secblu/Uniforms/Jumpsuit/hos_blue.rsi
+  - type: Clothing
+    sprite: _Sunrise/Secblu/Uniforms/Jumpsuit/hos_blue.rsi
+
+- type: entity
+  parent: ClothingUniformJumpsuitHoSGrey
+  id: ClothingUniformJumpsuitHoSGreyBlue
+  name: head of security's grey jumpsuit
+  description: A grey jumpsuit of Head of Security, which make him look somewhat like a passenger.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Secblu/Uniforms/Jumpsuit/hos_grey.rsi
+  - type: Clothing
+    sprite: _Sunrise/Secblu/Uniforms/Jumpsuit/hos_grey.rsi
+
+- type: entity
+  parent: ClothingUniformJumpsuitSec
+  id: ClothingUniformJumpsuitSecBlue
+  name: security Jumpsuit
+  description: A Jumpsuit made of strong material, providing robust protection.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Secblu/Uniforms/Jumpsuit/security.rsi
+  - type: Clothing
+    sprite: _Sunrise/Secblu/Uniforms/Jumpsuit/security.rsi
+
+- type: entity
+  parent: ClothingUniformJumpsuitWarden
+  id: ClothingUniformJumpsuitWardenBlue
+  name: warden's uniform
+  description: A formal security suit for officers complete with Nanotrasen belt buckle.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Secblu/Uniforms/Jumpsuit/warden.rsi
+  - type: Clothing
+    sprite: _Sunrise/Secblu/Uniforms/Jumpsuit/warden.rsi
+
+- type: entity
+  parent: ClothingUniformJumpsuitHosFormal
+  id: ClothingUniformJumpsuitHosFormalBlue
+  name: hos's formal suit
+  description: A suit for special occasions.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Secblu/Uniforms/Jumpsuit/hosformal.rsi
+  - type: Clothing
+    sprite: _Sunrise/Secblu/Uniforms/Jumpsuit/hosformal.rsi
+
+- type: entity
+  parent: ClothingUniformJumpsuitSecGrey
+  id: ClothingUniformJumpsuitSecGreyBlue
+  name: grey security Jumpsuit
+  description: A tactical relic of years past before Nanotrasen decided it was cheaper to dye the suits red instead of washing out the blood.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Secblu/Uniforms/Jumpsuit/security_grey.rsi
+  - type: Clothing
+    sprite: _Sunrise/Secblu/Uniforms/Jumpsuit/security_grey.rsi
+
+- type: entity
+  parent: [ClothingUniformSkirtBase, BaseSecurityContraband]
+  id: ClothingUniformJumpsuitSeniorOfficerBlue
+  name: senior officer Jumpsuit
+  description: A sign of skill and prestige within the security department.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Secblu/Uniforms/Jumpsuit/senior_officer.rsi
+  - type: Clothing
+    sprite: _Sunrise/Secblu/Uniforms/Jumpsuit/senior_officer.rsi

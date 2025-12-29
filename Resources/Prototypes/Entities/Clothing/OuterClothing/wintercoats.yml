@@ -748,9 +748,9 @@
   description: A sturdy, utilitarian winter coat designed to protect a warden from any brig-bound threats and hypothermic events.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/WinterCoats/coatwardenarmored.rsi
+    sprite: _Sunrise/Secred/OuterClothing/WinterCoats/coatwardenarmored.rsi # Sunrise-Edit
   - type: Clothing
-    sprite: Clothing/OuterClothing/WinterCoats/coatwardenarmored.rsi
+    sprite: _Sunrise/Secred/OuterClothing/WinterCoats/coatwardenarmored.rsi # Sunrise-Edit
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodWinterWarden
 ################################################################

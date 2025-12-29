@@ -236,3 +236,91 @@
     sprite: _Sunrise/Clothing/Uniforms/Jumpskirt/sunrisemaid.rsi
   - type: Clothing
     sprite: _Sunrise/Clothing/Uniforms/Jumpskirt/sunrisemaid.rsi
+
+- type: entity
+  parent: ClothingUniformJumpskirtSec
+  id: ClothingUniformJumpskirtHoSBlue
+  name: head of security's jumpskirt
+  description: It's bright red and rather crisp, much like security's victims tend to be.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Secblu/Uniforms/Jumpskirt/hos.rsi
+  - type: Clothing
+    sprite: _Sunrise/Secblu/Uniforms/Jumpskirt/hos.rsi
+
+- type: entity
+  parent: ClothingUniformJumpskirtHoSAlt
+  id: ClothingUniformJumpskirtHoSAltBlue
+  name: head of security's turtleneck
+  description: It's a turtleneck worn by those strong and disciplined enough to achieve the position of Head of Security.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Secblu/Uniforms/Jumpskirt/hos_alt.rsi
+  - type: Clothing
+    sprite: _Sunrise/Secblu/Uniforms/Jumpskirt/hos_alt.rsi
+
+- type: entity
+  parent: ClothingUniformJumpskirtHoSParadeMale
+  id: ClothingUniformJumpskirtHoSParadeMaleBlue
+  name: head of security's parade uniform
+  description: A head of security's luxury-wear, for special occasions.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Secblu/Uniforms/Jumpskirt/hos_parade.rsi
+  - type: Clothing
+    sprite: _Sunrise/Secblu/Uniforms/Jumpskirt/hos_parade.rsi
+
+- type: entity
+  parent: ClothingUniformJumpskirtSec
+  id: ClothingUniformJumpskirtSecBlue
+  name: security jumpskirt
+  description: A jumpskirt made of strong material, providing robust protection.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Secblu/Uniforms/Jumpskirt/security.rsi
+  - type: Clothing
+    sprite: _Sunrise/Secblu/Uniforms/Jumpskirt/security.rsi
+
+- type: entity
+  parent: ClothingUniformJumpskirtWarden
+  id: ClothingUniformJumpskirtWardenBlue
+  name: warden's uniform
+  description: A formal security suit for officers complete with Nanotrasen belt buckle.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Secblu/Uniforms/Jumpskirt/warden.rsi
+  - type: Clothing
+    sprite: _Sunrise/Secblu/Uniforms/Jumpskirt/warden.rsi
+
+- type: entity
+  parent: ClothingUniformJumpskirtHosFormal
+  id: ClothingUniformJumpskirtHosFormalBlue
+  name: hos's formal dress
+  description: A dress for special occasions.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Secblu/Uniforms/Jumpskirt/hosformaldress.rsi
+  - type: Clothing
+    sprite: _Sunrise/Secblu/Uniforms/Jumpskirt/hosformaldress.rsi
+
+- type: entity
+  parent: ClothingUniformJumpskirtSecGrey
+  id: ClothingUniformJumpskirtSecGreyBlue
+  name: grey security jumpskirt
+  description: A tactical relic of years past before Nanotrasen decided it was cheaper to dye the suits red instead of washing out the blood.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Secblu/Uniforms/Jumpskirt/security_grey.rsi
+  - type: Clothing
+    sprite: _Sunrise/Secblu/Uniforms/Jumpskirt/security_grey.rsi
+
+- type: entity
+  parent: [ClothingUniformSkirtBase, BaseSecurityContraband]
+  id: ClothingUniformJumpskirtSeniorOfficerBlue
+  name: senior officer jumpskirt
+  description: A sign of skill and prestige within the security department.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Secblu/Uniforms/Jumpskirt/senior_officer.rsi
+  - type: Clothing
+    sprite: _Sunrise/Secblu/Uniforms/Jumpskirt/senior_officer.rsi
