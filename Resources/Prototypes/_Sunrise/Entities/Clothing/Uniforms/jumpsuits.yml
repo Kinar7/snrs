@@ -390,7 +390,7 @@
 
 - type: entity
   parent: [ClothingUniformSkirtBase, BaseSecurityContraband]
-  id: ClothingUniformJumpsuitHoSBlue
+  id: ClothingUniformJumpsuitHoSBlu
   name: head of security's Jumpsuit
   description: It's bright red and rather crisp, much like security's victims tend to be.
   components:
@@ -445,7 +445,7 @@
 
 - type: entity
   parent: [ClothingUniformSkirtBase, BaseSecurityContraband]
-  id: ClothingUniformJumpsuitSecBlue
+  id: ClothingUniformJumpsuitSecBlueBlue
   name: security Jumpsuit
   description: A Jumpsuit made of strong material, providing robust protection.
   components:
