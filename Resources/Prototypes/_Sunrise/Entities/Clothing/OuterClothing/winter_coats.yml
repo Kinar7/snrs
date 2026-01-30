@@ -35,3 +35,16 @@
       - NudeBottom  # INTERACTIONS
       - WhitelistChameleon
   # SUNRISE EDIT
+
+- type: entity
+  parent: [ClothingOuterArmorWarden, ClothingOuterWinterCoatToggleable, BaseSecurityContraband]
+  id: ClothingOuterWinterWardenBlue
+  name: warden's armored winter coat
+  description: A sturdy, utilitarian winter coat designed to protect a warden from any brig-bound threats and hypothermic events.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Secblu/OuterClothing/WinterCoats/coatwarden.rsi
+  - type: Clothing
+    sprite: _Sunrise/Secblu/OuterClothing/WinterCoats/coatwarden.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHatHoodWinterWarden

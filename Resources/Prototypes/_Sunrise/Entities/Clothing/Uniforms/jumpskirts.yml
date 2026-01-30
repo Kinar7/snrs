@@ -238,7 +238,7 @@
     sprite: _Sunrise/Clothing/Uniforms/Jumpskirt/sunrisemaid.rsi
 
 - type: entity
-  parent: ClothingUniformJumpskirtSec
+  parent: [ClothingUniformSkirtBase, BaseSecurityContraband]
   id: ClothingUniformJumpskirtHoSBlue
   name: head of security's jumpskirt
   description: It's bright red and rather crisp, much like security's victims tend to be.
@@ -249,7 +249,7 @@
     sprite: _Sunrise/Secblu/Uniforms/Jumpskirt/hos.rsi
 
 - type: entity
-  parent: ClothingUniformJumpskirtHoSAlt
+  parent: [ClothingUniformSkirtBase, BaseSecurityContraband]
   id: ClothingUniformJumpskirtHoSAltBlue
   name: head of security's turtleneck
   description: It's a turtleneck worn by those strong and disciplined enough to achieve the position of Head of Security.
@@ -260,7 +260,7 @@
     sprite: _Sunrise/Secblu/Uniforms/Jumpskirt/hos_alt.rsi
 
 - type: entity
-  parent: ClothingUniformJumpskirtHoSParadeMale
+  parent: [ClothingUniformSkirtBase, BaseSecurityContraband]
   id: ClothingUniformJumpskirtHoSParadeMaleBlue
   name: head of security's parade uniform
   description: A head of security's luxury-wear, for special occasions.
@@ -271,7 +271,7 @@
     sprite: _Sunrise/Secblu/Uniforms/Jumpskirt/hos_parade.rsi
 
 - type: entity
-  parent: ClothingUniformJumpskirtSec
+  parent: [ClothingUniformSkirtBase, BaseSecurityContraband]
   id: ClothingUniformJumpskirtSecBlue
   name: security jumpskirt
   description: A jumpskirt made of strong material, providing robust protection.
@@ -282,7 +282,7 @@
     sprite: _Sunrise/Secblu/Uniforms/Jumpskirt/security.rsi
 
 - type: entity
-  parent: ClothingUniformJumpskirtWarden
+  parent: [ClothingUniformSkirtBase, BaseSecurityContraband]
   id: ClothingUniformJumpskirtWardenBlue
   name: warden's uniform
   description: A formal security suit for officers complete with Nanotrasen belt buckle.
@@ -293,7 +293,7 @@
     sprite: _Sunrise/Secblu/Uniforms/Jumpskirt/warden.rsi
 
 - type: entity
-  parent: ClothingUniformJumpskirtHosFormal
+  parent: [ClothingUniformSkirtBase, BaseSecurityContraband]
   id: ClothingUniformJumpskirtHosFormalBlue
   name: hos's formal dress
   description: A dress for special occasions.
@@ -304,7 +304,7 @@
     sprite: _Sunrise/Secblu/Uniforms/Jumpskirt/hosformaldress.rsi
 
 - type: entity
-  parent: ClothingUniformJumpskirtSecGrey
+  parent: [ClothingUniformSkirtBase, BaseSecurityContraband]
   id: ClothingUniformJumpskirtSecGreyBlue
   name: grey security jumpskirt
   description: A tactical relic of years past before Nanotrasen decided it was cheaper to dye the suits red instead of washing out the blood.

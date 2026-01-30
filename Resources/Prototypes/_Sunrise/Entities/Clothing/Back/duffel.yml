@@ -167,3 +167,12 @@
   components:
   - type: Sprite
     sprite: _Sunrise/Clothing/Back/Duffels/yellowduffel.rsi
+
+- type: entity
+  parent: [ClothingBackpackDuffel, BaseSecurityContraband]
+  id: ClothingBackpackDuffelSecurityBlue
+  name: security duffel bag
+  description: A large duffel bag for holding extra security related goods.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Secblu/Back/Duffels/security.rsi

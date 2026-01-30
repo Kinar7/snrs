@@ -170,3 +170,12 @@
   components:
   - type: Sprite
     sprite: _Sunrise/Clothing/Back/Backpacks/yellowbackpack.rsi
+
+- type: entity
+  parent: [ClothingBackpack, BaseSecurityContraband]
+  id: ClothingBackpackSecurityBlue
+  name: security backpack
+  description: It's a very robust backpack.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Secblu/Back/Backpacks/security.rsi

@@ -77,3 +77,36 @@
     - ClothMade
     - HamsterWearable
     - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBeretWardenBlue
+  name: warden's beret
+  description: A corporate-blue beret with a warden's rank emblem. For officers that are more inclined towards style than safety.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Secblu/Head/Hats/beret_warden.rsi
+  - type: Clothing
+    sprite: _Sunrise/Secblu/Head/Hats/beret_warden.rsi
+  - type: Tag
+    tags:
+    - PetWearable
+    - CorgiWearable
+    - HamsterWearable
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBeretSecurityBlue
+  name: security beret
+  description: A beret with the security department's insignia. For officers that are more inclined towards style than safety.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Secblu/Head/Hats/beret_security.rsi
+  - type: Clothing
+    sprite: _Sunrise/Secblu/Head/Hats/beret_security.rsi
+  - type: Tag
+    tags:
+    - PetWearable
+    - CorgiWearable
+    - HamsterWearable
+
